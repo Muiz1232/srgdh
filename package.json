@@ -1,0 +1,8 @@
+{
+  "name": "media-downloader-api",
+  "version": "1.0.0",
+  "main": "api/download.js",
+  "dependencies": {
+    "nayan-media-downloader": "^1.0.0"
+  }
+}
