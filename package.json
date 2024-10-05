@@ -1,9 +1,9 @@
 {
   "name": "my-media-downloader",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "down.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node down.js"
   },
   "dependencies": {
     "nayan-media-downloader": "latest",
