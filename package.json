@@ -1,8 +1,12 @@
 {
-  "name": "media-downloader-api",
+  "name": "my-media-downloader",
   "version": "1.0.0",
-  "main": "api/download.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "nayan-media-downloader": "latest"
+    "nayan-media-downloader": "^1.0.0", // Adjust the version according to what you use
+    "express": "^4.18.2" // Add express if it's not already in your project
   }
 }
