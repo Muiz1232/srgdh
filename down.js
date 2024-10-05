@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware to parse JSON requests
 app.use(express.json());
 
-app.get('/download', async (req, res) => {
+app.get('/down', async (req, res) => {
   const url = req.query.url; // Get URL from query parameter (GET request)
 
   if (!url) {
@@ -23,7 +23,7 @@ app.get('/download', async (req, res) => {
   }
 });
 
-app.post('/download', async (req, res) => {
+app.post('/down', async (req, res) => {
   const { url } = req.body; // Get URL from request body (POST request)
 
   if (!url) {
