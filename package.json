@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "down.js",
   "scripts": {
+    "build": "npm i got && npm i",
     "start": "node down.js"
   },
   "dependencies": {
