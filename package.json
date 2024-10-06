@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "down.js",
   "scripts": {
-    "build": "npm i got && npm i",
+    "build": "npm i got@^11.8.3 && npm i",
     "start": "node down.js"
   },
   "dependencies": {
     "nayan-media-downloader": "latest",
     "express": "latest",
-    "got": "latest"
+    "got": "^11.8.3"
   }
 }
